@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>@color/semiWhile</item>
+        <item>@color/colorPrimary</item>
+        <item>@android:color/black</item>
+    </string-array>
+</resources>

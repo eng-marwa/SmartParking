@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meter="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.db.circularcounter.CircularCounter
+        android:id="@+id/meter"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="5dp"
+        meter:range="60"
+        meter:textSize="100sp"
+        meter:textColor="#ffffff"
+        meter:metricSize="20sp"
+        meter:metricText="minutes"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopTimer"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmReservation"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

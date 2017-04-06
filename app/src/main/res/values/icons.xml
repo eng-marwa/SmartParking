@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_action_parking</item>
+        <item>@drawable/ic_action_timer</item>
+        <item>@drawable/ic_action_history</item>
+    </array>
+
+</resources>
